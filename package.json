@@ -13,7 +13,8 @@
     "@popperjs/core": "^2.11.2",
     "@types/mime-types": "^2.1.1",
     "bootstrap": "^5.1.3",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "mime-types": "^2.1.35"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.13",
