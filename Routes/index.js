@@ -14,8 +14,8 @@ router.get('/home', function (req, res, next) {
 router.get('/about', function (req, res, next) {
     res.render('index', { title: 'About Us', page: 'about', displayName: '' });
 });
-router.get('/projects', function (req, res, next) {
-    res.render('index', { title: 'Our Projects', page: 'projects', displayName: '' });
+router.get('/products', function (req, res, next) {
+    res.render('index', { title: 'Our Products', page: 'products', displayName: '' });
 });
 router.get('/services', function (req, res, next) {
     res.render('index', { title: 'Our Services', page: 'services', displayName: '' });

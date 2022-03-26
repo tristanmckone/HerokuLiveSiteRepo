@@ -396,7 +396,7 @@
           case "about": 
             DisplayAboutPage();
             break;
-          case "projects":
+          case "products":
             DisplayProductsPage();
             break;
           case "services":

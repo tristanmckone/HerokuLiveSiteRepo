@@ -19,10 +19,10 @@ router.get('/about', function(req, res, next)
   res.render('index', { title: 'About Us', page: 'about', displayName: '' });
 });
 
-/* GET projects page. */
-router.get('/projects', function(req, res, next) 
+/* GET producsts page. */
+router.get('/products', function(req, res, next) 
 {
-  res.render('index', { title: 'Our Projects', page: 'products', displayName: '' });
+  res.render('index', { title: 'Our Products', page: 'products', displayName: '' });
 });
 
 /* GET services page. */
