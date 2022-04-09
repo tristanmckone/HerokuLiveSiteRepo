@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-import app from './config/app';
+import app from './Server/config/app';
 import debug from 'debug';
 debug('temp:server');
 import http from 'http';
